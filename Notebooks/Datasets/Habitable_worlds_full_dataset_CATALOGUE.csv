@@ -1,0 +1,119 @@
+Column name,Description,Values accepted
+P_NAME,Name of planet,Free text
+P_DETECTION,Method of planet detection,Free text
+P_DISCOVERY_FACILITY,Facility that discovered the planet,Free text
+P_YEAR,Year of planet discovery,Year
+P_UPDATE,Date of last update of planetary data,Date
+P_MASS,Mass of planet in earth masses,Decimal
+P_MASS_ERROR_MIN,,
+P_MASS_ERROR_MAX,,
+P_MASS_LIMIT,,
+P_MASS_ORIGIN,,
+P_RADIUS,Radius of planet in earth radii,Decimal
+P_RADIUS_ERROR_MIN,,
+P_RADIUS_ERROR_MAX,,
+P_RADIUS_LIMIT,,
+P_PERIOD,Period of the planet (Time it takes to orbit it's star once),Decimal
+P_PERIOD_ERROR_MIN,,
+P_PERIOD_ERROR_MAX,,
+P_PERIOD_LIMIT,,
+P_SEMI_MAJOR_AXIS,,
+P_SEMI_MAJOR_AXIS_ERROR_MIN,,
+P_SEMI_MAJOR_AXIS_ERROR_MAX,,
+P_SEMI_MAJOR_AXIS_LIMIT,,
+P_ECCENTRICITY,Planet's eccentricity (How far a planet's orbit deviates from a pefrect circle),Decimal (Between 0 and 1)
+P_ECCENTRICITY_ERROR_MIN,,
+P_ECCENTRICITY_ERROR_MAX,,
+P_ECCENTRICITY_LIMIT,,
+P_INCLINATION,The tilt of a planets obrit around the sun compared to the earths flat plane,Decimal (Between 0 and 180)
+P_INCLINATION_ERROR_MIN,,
+P_INCLINATION_ERROR_MAX,,
+P_INCLINATION_LIMIT,,
+P_OMEGA,,
+P_OMEGA_ERROR_MIN,,
+P_OMEGA_ERROR_MAX,,
+P_OMEGA_LIMIT,,
+S_NAME,Name of planets closest star,Free text
+S_NAME_HD,,
+S_NAME_HIP,,
+S_TYPE,Stars spectral type,Catagorical data
+S_RA,Stars right ascension,Decimal (Between 0 and 360)
+S_DEC,Stars declination,Decimal (Between -90 and 90)
+S_RA_STR,,
+S_DEC_STR,,
+S_MAG,Assumption - Stars magnitude,Decimal (Greater than 0)
+S_MAG_ERROR_MIN,,
+S_MAG_ERROR_MAX,,
+S_DISTANCE,,
+S_DISTANCE_ERROR_MIN,,
+S_DISTANCE_ERROR_MAX,,
+S_TEMPERATURE,Stars temperature (Kelvin),Decimal (Greater than 0)
+S_TEMPERATURE_ERROR_MIN,,
+S_TEMPERATURE_ERROR_MAX,,
+S_TEMPERATURE_LIMIT,,
+S_MASS,Stars mass (Solar masses),Decimal (Greater than 0)
+S_MASS_ERROR_MIN,,
+S_MASS_ERROR_MAX,,
+S_MASS_LIMIT,,
+S_RADIUS,Stars radii (Solar radii),Decimal (Greater than 0)
+S_RADIUS_ERROR_MIN,,
+S_RADIUS_ERROR_MAX,,
+S_RADIUS_LIMIT,,
+S_METALLICITY,,
+S_METALLICITY_ERROR_MIN,,
+S_METALLICITY_ERROR_MAX,,
+S_METALLICITY_LIMIT,,
+S_AGE,Stars age (Billions of years),Decimal (Greater than 0)
+S_AGE_ERROR_MIN,,
+S_AGE_ERROR_MAX,,
+S_AGE_LIMIT,,
+S_LOG_LUM,,
+S_LOG_LUM_ERROR_MIN,,
+S_LOG_LUM_ERROR_MAX,,
+S_LOG_LUM_LIMIT,,
+S_LOG_G,,
+S_LOG_G_ERROR_MIN,,
+S_LOG_G_ERROR_MAX,,
+S_LOG_G_LIMIT,,
+P_ESCAPE,,
+P_POTENTIAL,,
+P_GRAVITY,Planet's gravity,
+P_DENSITY,Planet's density,
+P_HILL_SPHERE,,
+P_DISTANCE,,
+P_PERIASTRON,,
+P_APASTRON,,
+P_DISTANCE_EFF,,
+P_FLUX,Planets insolation flux in solar units (the amount of energy received from its local star),
+P_FLUX_MIN,,
+P_FLUX_MAX,,
+P_TEMP_EQUIL,,
+P_TEMP_EQUIL_MIN,,
+P_TEMP_EQUIL_MAX,,
+P_TEMP_SURF,,
+P_TEMP_SURF_MIN,,
+P_TEMP_SURF_MAX,,
+P_TYPE,,
+S_TYPE_TEMP,,
+S_RA_TXT,,
+S_DEC_TXT,,
+S_LUMINOSITY,Star luminosity (Solar luminosities (Our star is 1 on this scale)),Decimal (Greater than 0)
+S_HZ_OPT_MIN,Optimal habitable zone minimum distance,Decimal (Greater than 0)
+S_HZ_OPT_MAX,Optimal habitable zone maximum distance,Decimal (Greater than 0)
+S_HZ_CON_MIN,Conservative habitable zone minimum distance,Decimal (Greater than 0)
+S_HZ_CON_MAX,Conservative habitable zone maximum distance,Decimal (Greater than 0)
+S_HZ_CON0_MIN,Conservative 0 habitable zone minimum distance,Decimal (Greater than 0)
+S_HZ_CON0_MAX,Conservative 0 habitable zone maximum distance,Decimal (Greater than 0)
+S_HZ_CON1_MIN,Conservative 1 habitable zone minimum distance,Decimal (Greater than 0)
+S_HZ_CON1_MAX,Conservative 1 habitable zone maximum distance,Decimal (Greater than 0)
+S_SNOW_LINE,Snow zone cut off for a given star,Decimal (Greater than 0)
+S_ABIO_ZONE,Abiogenesis zone cut off for a given star,Decimal (Greater than 0)
+S_TIDAL_LOCK,,
+P_HABZONE_OPT,Is the planet in the stars optimal habitable zone?,Binary
+P_HABZONE_CON,Is the planet in the stars conservative habitable zone?,Binary
+P_TYPE_TEMP,,
+P_HABITABLE,Habitability score of the planet,"Tinary (0,1,2)"
+P_ESI,Earth Similarty Index,Decimal (Between 0 and 1)
+S_CONSTELLATION,,
+S_CONSTELLATION_ABR,,
+S_CONSTELLATION_ENG,,
